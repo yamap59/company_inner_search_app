@@ -110,3 +110,10 @@ NO_DOC_MATCH_MESSAGE = """
 CONVERSATION_LOG_ERROR_MESSAGE = "過去の会話履歴の表示に失敗しました。"
 GET_LLM_RESPONSE_ERROR_MESSAGE = "回答生成に失敗しました。"
 DISP_ANSWER_ERROR_MESSAGE = "回答表示に失敗しました。"
+
+# ==========================================
+# Retriever設定系
+# ==========================================
+CHARACTER_TEXT_SPLITTER_CHUNK_SIZE = 500
+CHARACTER_TEXT_SPLITTER_CHUNK_OVERLAP = 50
+RETRIEVER_SEARCH_K = 5
